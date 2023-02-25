@@ -1,0 +1,72 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E5E5E5;
+    margin-top: 30px; 
+    margin-left: 60px;
+    padding: 0px;        
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 20%; 
+    margin-bottom: 0px;  
+    padding: 0px;
+}
+
+header h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+header h4{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;    
+}
+
+form input{
+    margin: 10px 0px 10px 0px;
+    height: 25px;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    }
+
+form input[type="submit"]{
+    /* font-family: 'Times New Roman', Times, serif; */
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #000000;
+}
+
+main h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+button{
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
